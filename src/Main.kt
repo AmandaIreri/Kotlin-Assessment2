@@ -1,10 +1,14 @@
 fun main(){
+    statement()
+    statement()
     numbers(1,2,3,4)
     calculation(2.0)
     isPalindrome("Hello")
 }
 fun statement(){
     var sentence = "Barnie bakes brown bagels and buns"
+    for(x in sentence)
+        println(sentence)
 
 }
 
